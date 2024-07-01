@@ -5,33 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Yujin J. Jung</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@300;400&family=Roboto:wght@300;400;700&family=Futura:wght@300;400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Montserrat:wght@200;400&family=Playfair+Display:wght@300;600&family=Computer+Modern+Serif:wght@300&display=swap');
         @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
         body {
-            font-family: 'Alegreya', serif; /* body 글씨체 변경 */
+            font-family: 'Montserrat', sans-serif;
             font-size: 14px; /* 글씨체를 한 단계 줄임 */
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #f4f4f4; /* 바탕화면 원래 색으로 변경 */
-            color: #2C3E50;
+            background-color: #2C3E50; /* 전체 바탕화면을 짙은 네이비 색으로 수정 */
+            color: #f4f4f4; /* 글씨 색상을 흰색으로 변경 */
         }
         .navbar {
             width: 100%;
             background-color: #1A252F;
             display: flex;
             justify-content: center;
-            padding: 5px 0; /* 세로 폭을 좁힘 */
+            padding: 10px 0;
         }
         .navbar a {
             color: #f4f4f4;
-            padding: 10px 15px; /* 세로 폭을 좁힘 */
+            padding: 14px 20px;
             text-decoration: none;
             font-size: 16px;
-            font-family: 'Futura', sans-serif; /* 섹션 클릭 버튼 글씨체 변경 */
+            font-family: 'Playfair Display', serif; /* 섹션 클릭 버튼 글씨체 변경 */
         }
         .navbar a:hover {
             background-color: #3E5566;
@@ -39,17 +39,17 @@
         }
         .header {
             text-align: center;
-            background: #1A252F; /* 섹션 배경색을 짙은 남색으로 변경 */
+            background: #fff;
             padding: 20px;
             width: 100%;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             font-family: 'Playfair Display', serif;
-            color: #f4f4f4; /* 글씨 색상을 흰색으로 변경 */
+            color: #2C3E50;
         }
         .header p {
-            font-family: 'Roboto', sans-serif; /* Assistant Professor 텍스트 글씨체 변경 */
+            font-family: 'Merriweather', serif; /* Assistant Professor 텍스트 글씨체 변경 */
             margin: 5px 0; /* 줄 간격 줄임 */
-            color: #f4f4f4; /* 글씨 색상을 흰색으로 변경 */
+            color: #2C3E50;
         }
         .container {
             width: 90%; /* 양옆 폭을 넓힘 */
@@ -66,18 +66,13 @@
             color: #2C3E50;
         }
         .section h2 {
-            font-family: 'Roboto', sans-serif; /* 헤더 글씨체 변경 */
+            font-family: 'Playfair Display', serif; /* 헤더 글씨체 변경 */
             font-weight: 700;
             margin-bottom: 10px;
             font-size: 18px; /* 글씨체를 한 단계 줄임 */
-            background: #1A252F; /* 헤더 배경색을 짙은 남색으로 변경 */
-            color: #f4f4f4; /* 헤더 글씨 색상을 흰색으로 변경 */
-            padding: 10px;
-            border-radius: 10px;
-            text-align: center;
         }
         .section h3 {
-            font-family: 'Roboto', sans-serif; /* 헤더 글씨체 변경 */
+            font-family: 'Merriweather', serif;
             font-weight: 300;
             margin-bottom: 5px;
             font-size: 16px; /* 글씨체를 한 단계 줄임 */
@@ -88,11 +83,11 @@
         }
         .section ul li {
             margin-bottom: 5px;
-            font-family: 'Alegreya', serif; /* body 글씨체 변경 */
+            font-family: 'Merriweather', serif; /* body 글씨체 변경 */
             font-weight: 300; /* LaTeX 스타일 */
         }
         .section p, .section div {
-            font-family: 'Alegreya', serif; /* Biography 글씨체 변경 */
+            font-family: 'Merriweather', serif; /* Biography 글씨체 변경 */
             font-weight: 300; /* LaTeX 스타일 */
         }
         .publication, .under-review {
@@ -114,23 +109,9 @@
         }
         .social-icons a {
             margin: 0 10px;
-            color: #f4f4f4; /* 아이콘 색상을 흰색으로 변경 */
+            color: #2C3E50;
             text-decoration: none;
             font-size: 20px; /* 글씨체를 한 단계 줄임 */
-        }
-        .footer {
-            width: 100%;
-            background-color: #1A252F;
-            color: #f4f4f4;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .footer p {
-            margin: 5px 0;
-        }
-        .footer img {
-            margin-top: 10px;
         }
     </style>
 </head>
